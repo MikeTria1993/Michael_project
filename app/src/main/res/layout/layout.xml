@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:background="#C5EA9A"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:singleLine="false"
+            android:text="Title"
+            android:textColor="#60FFFFFF"
+            android:textSize="34sp"
+            android:visibility="visible" />
+
+        <SearchView
+            android:layout_width="181dp"
+            android:layout_height="match_parent"
+            android:background="#A3A3A3" />
+    </LinearLayout>
+
+</LinearLayout>
